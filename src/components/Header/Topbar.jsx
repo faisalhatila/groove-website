@@ -20,7 +20,7 @@ const TopBar = () => {
 
   return (
     // <div className="bg-[rgba(0,0,0,0.6)] px-2 md:px-[200px] py-2 md:py-[50px] text-white">
-    <div className="flex-1 bg-[rgba(0,0,0,0.6)] text-white">
+    <div className="flex-1 text-white">
       <div className="flex justify-between items-center">
         <div className="w-[120px] md:w-[220px]">
           <img src="/assets/TopbarLogo.png" className="max-w-[100%]" />

@@ -115,7 +115,7 @@ const Hero = () => {
           <button
             className={`flex ${
               activeLanguage === 'en' ? 'flex-row' : 'flex-row-reverse'
-            } items-center justify-between w-[50%] md:h-[55px] bg-gradient-to-b from-[#AD8749] to-[#DCBB75] text-white rounded-[16px] text-left px-5 md:px-16`}
+            } items-center justify-between lg:w-[50%] md:h-[55px] bg-gradient-to-b from-[#AD8749] to-[#DCBB75] text-white rounded-[16px] text-left px-5`}
           >
             {t('home.hero.bookReservation')}
             <img

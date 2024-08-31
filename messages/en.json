@@ -27,6 +27,15 @@
       "tagline5": "Experience Joy Like Never Before.",
       "desc5": "Enjoy an unparalleled gastronomic experience full of joy.",
       "bookReservation": "Book reservation now"
+    },
+    "videoSection": {
+      "title": "Mall Of: Endless Possibilities",
+      "description": "Experience the authentic taste of our delicious cuisine, crafted with the finest ingredients. Watch our video to explore the ambiance and flavors that make our restaurant unique. From traditional dishes to modern delicacies, we bring you a dining experience like no other.",
+      "getAccessTicket": {
+        "priceInfo": "25 SR/GUEST",
+        "title": "Get your General Access Ticket",
+        "description": "Enjoy access to our main dining area with a wide range of delicious dishes and refreshing drinks. Reserve your spot now!"
+      }
     }
   },
   "footer": {

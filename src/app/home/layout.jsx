@@ -16,7 +16,10 @@ const Layout = ({ children }) => {
         backgroundSize: 'cover',
       }}
     >
-      <Container Component={<TopBar />} restClasses="hidden md:flex" />
+      <Container
+        Component={<TopBar />}
+        restClasses="hidden md:flex bg-[rgba(0,0,0,0.6)]"
+      />
       <Container
         Component={<Navbar />}
         pymd="20px"

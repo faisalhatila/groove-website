@@ -1,20 +1,17 @@
-// import TopBar from '@/components/Header/TopBar';
-import TopBar from '../../components/Header/TopBar';
+import Footer from '@/components/Footer/Footer';
+import Navbar from '@/components/Header/Navbar';
+import TopBar from '@/components/Header/TopBar';
+import Hero from '@/components/Hero/Hero';
+import Container from '@/components/HigherOrder/Container';
+import { useTranslations } from 'next-intl';
 import React from 'react';
 
 const page = () => {
+  const t = useTranslations();
   return (
-    <div
-      className="w-[100vw] h-[100vh]"
-      style={{
-        background: "url('/assets/HeroBackground.jpg')",
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover',
-      }}
-    >
-      <TopBar />
-    </div>
+    <>
+      <Hero />
+    </>
   );
 };
 

@@ -1,3 +1,62 @@
 {
-  "title": "Hello World"
+  "login": "Log in",
+  "title": "Hello World",
+  "navbar": {
+    "dineWithUs": "DINE WITH US",
+    "planYourVisit": "PLAN YOUR VISIT",
+    "events": "EVENTS",
+    "viewGrovesMap": "VIEW GROVES MAP",
+    "ourStory": "OUR STROY",
+    "contactUs": "CONTACT US"
+  },
+  "home": {
+    "hero": {
+      "title1": "Al-Fayruz",
+      "tagline1": "Indulge in Culinary Excellence Tonight!",
+      "desc1": "Tonight, experience exceptional culinary delights like never before.",
+      "title2": "Sahara Delights",
+      "tagline2": "Savor Fresh Flavors, Every Bite Delightful!",
+      "desc2": "Enjoy fresh, delightful flavors with every single bite.",
+      "title3": "Zait & Zaatar",
+      "tagline3": "Your Next Favorite Meal Awaits Here!",
+      "desc3": "Discover your new favorite meal right here with us.",
+      "title4": "The Arabian Feast",
+      "tagline4": "Taste the Best, Served with Love.",
+      "desc4": "Taste the finest dishes, crafted and served with love.",
+      "title5": "Mosaic of Flavors",
+      "tagline5": "Experience Joy Like Never Before.",
+      "desc5": "Enjoy an unparalleled gastronomic experience full of joy.",
+      "bookReservation": "Book reservation now"
+    }
+  },
+  "footer": {
+    "headline": "Join us for an unforgettable experience",
+    "downloadLine": "DOWNLOAD THE GROVES APP",
+    "getAndroid": "GET IT ON",
+    "getIOS": "Download on the",
+    "websiteDetails": {
+      "address": {
+        "title": "Location",
+        "valueLine1": "Al-Hizam Park",
+        "valueLine2": "Al-Semairi, Yanbu Al Bahr 46455",
+        "valueLine3": "Riyadh Saudi Arabia"
+      },
+      "workingHours": {
+        "title": "Working Hours",
+        "time1": "Sun until Thurs: 4:00PM",
+        "time2": "Fri & Sat: 2:30PM"
+      },
+      "offHours": {
+        "title": "Gates Close at:",
+        "time1": "Sat until Wed 12:00AM",
+        "time2": "Thu & Fri 12:30AM"
+      },
+      "contact": {
+        "title": "GUEST SERVICE CALL",
+        "email": "cc@thegroves-sa.com",
+        "number": "920001672",
+        "phoneNumber": "+96655631309"
+      }
+    }
+  }
 }

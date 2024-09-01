@@ -52,7 +52,7 @@ const LanguageDropdown = ({ mobile }) => {
     console.log({ option });
     setSelectedOption(option);
     axios
-      .get(`http://localhost:3000/api/cookieinfo?newLang=${option.shorthand}`)
+      .get(`/api/cookieinfo?newLang=${option.shorthand}`)
       .then((res) => {
         console.log({ res });
         localStorage.setItem('language', JSON.stringify(option));

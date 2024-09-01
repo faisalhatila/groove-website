@@ -37,6 +37,10 @@
         "description": "Enjoy access to our main dining area with a wide range of delicious dishes and refreshing drinks. Reserve your spot now!"
       }
     },
+    "bookGeneralAccessTickers": {
+      "title": "Book General Access tickets and enjoy the attractions for free",
+      "button": "Book General Access Ticket"
+    },
     "finestCuisine": {
       "title1": "Vida Vera",
       "title2": "Zama Zulu",
@@ -49,6 +53,17 @@
       "title2": "Find your place",
       "desc": "Our interactive map will show you the way to the shops and restaurants that you want to see",
       "openMapButton": "Open the map"
+    },
+    "experience": {
+      "title": "Curate your experience as you link",
+      "button": "Book Tickets",
+      "restaurants": "Restaurants",
+      "experiences": "Experiences",
+      "events": "Events",
+      "picnicMarket": "Picnic Market",
+      "hawanimGrovesCity": "Hawanim City",
+      "littleKrazy": "Little Krazy",
+      "lucaw": "Lucaw"
     }
   },
   "footer": {

@@ -62,9 +62,8 @@ const TopBar = () => {
           <img src="/assets/MobileNavBtn.svg" className="max-w-[100%]" />
         </div>
       </div>
-      {/*Write drawer JSX below*/}
       <div
-        className={`fixed top-0 h-full w-[100%] z-10 bg-gradient-to-r from-[#283606] to-[#0F1500] shadow-lg transform ${
+        className={`fixed overflow-y-auto top-0 h-full w-[100%] z-10 bg-gradient-to-r from-[#283606] to-[#0F1500] shadow-lg transform ${
           isDrawerOpen
             ? 'translate-x-0'
             : activeLanguage === 'en'
@@ -112,30 +111,6 @@ const TopBar = () => {
               {t('login')}
             </button>
           </div>
-          {/* <nav className="mt-10">
-            <ul className="space-y-4">
-              <li>
-                <a href="#" className="text-gray-800">
-                  {t('home')}
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-800">
-                  {t('about')}
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-800">
-                  {t('services')}
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-800">
-                  {t('contact')}
-                </a>
-              </li>
-            </ul>
-          </nav> */}
         </div>
       </div>
     </>

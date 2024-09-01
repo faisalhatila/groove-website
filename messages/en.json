@@ -36,6 +36,19 @@
         "title": "Get your General Access Ticket",
         "description": "Enjoy access to our main dining area with a wide range of delicious dishes and refreshing drinks. Reserve your spot now!"
       }
+    },
+    "finestCuisine": {
+      "title1": "Vida Vera",
+      "title2": "Zama Zulu",
+      "title3": "Khawaja Yanni",
+      "title4": "Yamagata",
+      "price": "100 SR PER GUEST"
+    },
+    "map": {
+      "title1": "EXPERIENCE THE GROVES",
+      "title2": "Find your place",
+      "desc": "Our interactive map will show you the way to the shops and restaurants that you want to see",
+      "openMapButton": "Open the map"
     }
   },
   "footer": {

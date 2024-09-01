@@ -60,7 +60,7 @@ const Hero = () => {
   }, []);
 
   const renderDots = (arr) => {
-    if (activeContent === 'en') {
+    if (activeLanguage === 'en') {
       return arr;
     }
     return arr.reverse();
@@ -72,7 +72,7 @@ const Hero = () => {
       } `}
     >
       <div
-        className={`bg-[rgba(0,0,0,0.8)] md:w-[45%] ${
+        className={`bg-[rgba(0,0,0,0.8)] md:w-[60%] 2xl:w-[45%] ${
           activeLanguage === 'en' ? 'pl-2 md:pl-[200px]' : 'pr-2 md:pr-[200px]'
         } py-2 md:py-[50px]`}
       >

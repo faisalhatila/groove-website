@@ -72,9 +72,11 @@ const Hero = () => {
       } `}
     >
       <div
-        className={`bg-[rgba(0,0,0,0.8)] md:w-[60%] 2xl:w-[45%] ${
-          activeLanguage === 'en' ? 'pl-2 md:pl-[200px]' : 'pr-2 md:pr-[200px]'
-        } py-2 md:py-[50px]`}
+        className={`min-h-[600px] bg-[rgba(0,0,0,0.6)] md:w-[60%] 2xl:w-[45%] ${
+          activeLanguage === 'en'
+            ? 'pl-[20px] md:pl-[200px]'
+            : 'pr-[20px] md:pr-[200px]'
+        } py-2 md:py-[50px] flex flex-col justify-center `}
       >
         <div>
           <p

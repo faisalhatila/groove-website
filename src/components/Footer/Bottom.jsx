@@ -8,7 +8,7 @@ const Bottom = () => {
   ];
 
   const acceptingCards = [
-    '/assets/VISALogo.svg',
+    '/assets/VisaLogo.svg',
     '/assets/AMEXLogo.png',
     '/assets/MasterLogo.png',
   ];

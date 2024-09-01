@@ -1,10 +1,12 @@
 import axios from 'axios';
 import { useState, useRef, useEffect } from 'react';
+import { useLocale } from 'next-intl';
 
-const LanguageDropdown = () => {
+const LanguageDropdown = ({ mobile }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState(null);
   const dropdownRef = useRef(null);
+  const activeLanguage = useLocale();
 
   useEffect(() => {
     const language = JSON.parse(localStorage.getItem('language'));
@@ -78,11 +80,22 @@ const LanguageDropdown = () => {
   }, []);
 
   return (
-    <div className="relative w-[160px] inline-block" ref={dropdownRef}>
+    <div
+      className="relative w-[100%] md:w-[160px] inline-block"
+      ref={dropdownRef}
+    >
       {selectedOption?.language && (
         <>
           <div
-            className="flex justify-end items-center rounded-md pl-4 py-2 text-white cursor-pointer"
+            className={`flex ${
+              !mobile
+                ? 'justify-end'
+                : mobile && activeLanguage === 'en'
+                ? 'justify-start'
+                : 'justify-end'
+            } items-center rounded-md ${
+              !mobile && 'pl-4'
+            } py-2 text-white cursor-pointer`}
             onClick={toggleDropdown}
           >
             <span className="mr-4 inline-block transform transition-transform duration-200 ease-in-out">
@@ -96,7 +109,7 @@ const LanguageDropdown = () => {
                   className="max-w-[100%]"
                 />
               </div>
-              <p>{selectedOption?.language}</p>
+              <p className="text-white ">{selectedOption?.language}</p>
             </div>
           </div>
           {isOpen && (

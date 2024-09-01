@@ -15,11 +15,13 @@ const Bottom = () => {
 
   return (
     <div className="flex my-16 justify-between items-center flex-col md:flex-row text-center md:text-left">
-      <div className="flex-[3] flex items-center">
+      <div className="flex-[3] flex flex-col md:flex-row items-center">
         {links.map((item, index) => (
           <span key={index} className="flex items-center md:mr-16">
-            {index === 2 && <span className="mr-1">&copy;</span>}
-            <p>{item}</p>
+            {index === 2 && (
+              <span className="hidden md:block text-white  mr-1">&copy;</span>
+            )}
+            <p className="text-white">{item}</p>
           </span>
         ))}
       </div>

@@ -78,7 +78,7 @@ const Hero = () => {
       >
         <div>
           <p
-            className={`md:mt-5 ${
+            className={`text-white md:mt-5 ${
               activeLanguage === 'en' ? 'text-left' : 'text-right'
             }`}
           >
@@ -91,7 +91,7 @@ const Hero = () => {
           }`}
         >
           <p
-            className={`md:my-16 md:max-w-[80%] mb-5 text-[20px] md:text-[50px] font-serif leading-relaxed ${
+            className={`text-white md:my-16 md:max-w-[80%] mb-5 text-[20px] md:text-[50px] font-serif leading-relaxed ${
               activeLanguage === 'en' ? 'text-left' : 'text-right'
             }`}
           >
@@ -100,7 +100,7 @@ const Hero = () => {
         </div>
         <div>
           <p
-            className={`mb-5 ${
+            className={`text-white mb-5 ${
               activeLanguage === 'en' ? 'text-left' : 'text-right'
             }`}
           >

@@ -10,12 +10,12 @@ const VideoComponent = () => {
       <div className="md:max-w-[60%]">
         <div className="mb-10">
           <div className="flex justify-center">
-            <p className="md:w-[80%] text-center text-[20px] font-serif md:text-[50px]">
+            <p className="text-white md:w-[80%] text-center text-[20px] font-serif md:text-[50px]">
               {t('home.videoSection.title')}
             </p>
           </div>
           <div className="flex justify-center">
-            <p className="md:w-[80%] text-center">
+            <p className="text-white md:w-[80%] text-center">
               {t('home.videoSection.description')}
             </p>
           </div>
@@ -38,14 +38,14 @@ const VideoComponent = () => {
         </div>
         <div className="p-5 md:p-8 rounded-[25px] w-[100%] bg-gradient-to-r from-[#344114] to-[#252E11]">
           <p
-            className={`${
+            className={`text-white ${
               activeLanguage === 'en' ? 'text-left' : 'text-right'
             }`}
           >
             {t('home.videoSection.getAccessTicket.priceInfo')}
           </p>
           <p
-            className={`my-5 font-serif text-[20px] md:text-[40px] ${
+            className={`text-white my-5 font-serif text-[20px] md:text-[40px] ${
               activeLanguage === 'en' ? 'text-left' : 'text-right'
             }`}
           >
@@ -57,7 +57,7 @@ const VideoComponent = () => {
             } justify-between items-center`}
           >
             <p
-              className={`md:w-[70%] ${
+              className={`text-white md:w-[70%] ${
                 activeLanguage === 'en' ? 'text-left' : 'text-right'
               }`}
             >

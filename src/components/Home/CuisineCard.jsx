@@ -21,7 +21,7 @@ const CuisineCard = ({ item }) => {
       >
         <div className="flex flex-col">
           <p
-            className={`${
+            className={`text-white ${
               activeLanguage === 'en' ? 'text-left' : 'text-right'
             } font-serif md:text-[40px] text-[30px]`}
           >
@@ -37,6 +37,10 @@ const CuisineCard = ({ item }) => {
               ? '/assets/RightArrow.png'
               : '/assets/LeftArrow.png'
           }`}
+          // className={`${
+          //   activeLanguage === 'en' ? 'max-w-[40px]' : 'max-w-[40px]'
+          // }`}
+          className="max-w-[40px] md:max-w-[100%]"
         />
       </div>
     </div>

@@ -31,7 +31,7 @@ const FooterHeadline = () => {
         }`}
       >
         <p
-          className={`max-w-[100%] leading-none md:max-w-[70%] font-serif text-[20px] md:text-[60px] ${
+          className={`text-white max-w-[100%] leading-none md:max-w-[70%] font-serif text-[20px] md:text-[60px] ${
             activeLanguage === 'en' ? 'text-left' : 'text-right'
           }`}
         >
@@ -43,7 +43,7 @@ const FooterHeadline = () => {
           activeLanguage === 'en' ? 'items-start' : 'items-end'
         }`}
       >
-        <p className="mb-6">{t('footer.downloadLine')}</p>
+        <p className="text-white mb-6">{t('footer.downloadLine')}</p>
         <div
           className={`flex flex-col ${
             activeLanguage === 'en' ? 'justify-start' : 'justify-end'

@@ -21,19 +21,23 @@ const Map = () => {
       />
       <div className="flex-1">
         <p
-          className={`${activeLanguage === 'en' ? 'text-left' : 'text-right'}`}
+          className={`text-white ${
+            activeLanguage === 'en' ? 'text-left' : 'text-right'
+          }`}
         >
           {t('home.map.title1')}
         </p>
         <p
-          className={`text-[20px] my-5 md:text-[40px] ${
+          className={`text-white text-[20px] my-5 md:text-[40px] ${
             activeLanguage === 'en' ? 'text-left' : 'text-right'
           }`}
         >
           {t('home.map.title2')}
         </p>
         <p
-          className={`${activeLanguage === 'en' ? 'text-left' : 'text-right'}`}
+          className={`text-white ${
+            activeLanguage === 'en' ? 'text-left' : 'text-right'
+          }`}
         >
           {t('home.map.desc')}
         </p>

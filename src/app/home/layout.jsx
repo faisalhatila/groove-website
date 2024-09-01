@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
     >
       <Container
         Component={<TopBar />}
-        restClasses="hidden md:flex bg-[rgba(0,0,0,0.6)]"
+        restClasses="flex bg-[rgba(0,0,0,0.6)]"
       />
       <Container
         Component={<Navbar />}

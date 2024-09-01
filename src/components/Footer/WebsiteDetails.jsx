@@ -43,7 +43,7 @@ const WebsiteDetails = () => {
       {webDetails.map((item) => (
         <div className=" md:w-[30%]">
           <p
-            className={`${
+            className={`text-white ${
               activeLanguage === 'en' ? 'text-left' : 'text-right'
             } mb-3 tracking-widest`}
           >
@@ -52,7 +52,7 @@ const WebsiteDetails = () => {
           <div className="mb-4">
             {item?.data?.map((detail) => (
               <p
-                className={`${
+                className={`text-white ${
                   activeLanguage === 'en' ? 'text-left' : 'text-right'
                 }`}
               >
@@ -64,7 +64,7 @@ const WebsiteDetails = () => {
             {item?.data2 &&
               item?.data2?.map((detail) => (
                 <p
-                  className={`${
+                  className={`text-white ${
                     activeLanguage === 'en' ? 'text-left' : 'text-right'
                   }`}
                 >

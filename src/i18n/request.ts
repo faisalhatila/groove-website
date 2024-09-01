@@ -8,7 +8,7 @@ export default getRequestConfig(async () => {
   // read from `cookies()`, `headers()`, etc.
   //   console.log({ item: window.localStorage.getItem('NEXT_LOCALE') });
   //   const locale = 'en';
-  const locale = language?.value;
+  const locale = language?.value || 'en';
   console.log({ language });
 
   return {

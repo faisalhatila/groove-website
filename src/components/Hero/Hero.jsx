@@ -78,7 +78,7 @@ const Hero = () => {
             : 'pr-[20px] md:pr-[200px]'
         } py-2 md:py-[50px] flex flex-col justify-center `}
       >
-        <div>
+        <div className="transition-all">
           <p
             className={`text-white md:mt-5 ${
               activeLanguage === 'en' ? 'text-left' : 'text-right'
@@ -93,7 +93,7 @@ const Hero = () => {
           }`}
         >
           <p
-            className={`text-white md:my-16 md:max-w-[80%] mb-5 text-[20px] md:text-[50px] font-serif leading-relaxed ${
+            className={`text-white md:my-16 md:max-w-[80%] mb-5 text-[40px] md:text-[50px] font-serif leading-relaxed ${
               activeLanguage === 'en' ? 'text-left' : 'text-right'
             }`}
           >
@@ -117,7 +117,7 @@ const Hero = () => {
           <button
             className={`flex ${
               activeLanguage === 'en' ? 'flex-row' : 'flex-row-reverse'
-            } items-center justify-between lg:w-[50%] md:h-[55px] bg-gradient-to-b from-[#AD8749] to-[#DCBB75] text-white rounded-[16px] text-left px-5`}
+            } items-center justify-between w-[90%] lg:w-[50%] h-[55px] bg-gradient-to-b from-[#AD8749] to-[#DCBB75] text-white rounded-[16px] text-left px-5`}
           >
             {t('home.hero.bookReservation')}
             <img

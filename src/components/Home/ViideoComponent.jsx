@@ -10,7 +10,7 @@ const VideoComponent = () => {
       <div className="md:max-w-[60%]">
         <div className="mb-10">
           <div className="flex justify-center">
-            <p className="text-white md:w-[80%] text-center text-[20px] font-serif md:text-[50px]">
+            <p className="text-white md:w-[80%] text-center text-[30px] mb-5 font-serif md:text-[50px]">
               {t('home.videoSection.title')}
             </p>
           </div>
@@ -21,7 +21,7 @@ const VideoComponent = () => {
           </div>
         </div>
         <div
-          className="cursor-pointer flex justify-center items-center w-[100%] h-[450px] mb-10"
+          className="cursor-pointer flex justify-center items-center w-[100%] h-[170px] md:h-[450px] mb-10"
           style={{
             background: "url('/assets/VideoComp.png')",
             backgroundPosition: 'center',
@@ -29,7 +29,7 @@ const VideoComponent = () => {
             backgroundSize: 'cover',
           }}
         >
-          <div className="flex justify-end items-center  w-[70px] h-[70px] rounded-[50%] p-[8px] bg-white">
+          <div className="flex justify-end items-center  w-[40px] h-[40px] md:w-[70px] md:h-[70px] rounded-[50%] p-[8px] bg-white">
             <img
               src="/assets/Play.png"
               className="max-w-[70%] translate-x-[-2px]"
@@ -45,7 +45,7 @@ const VideoComponent = () => {
             {t('home.videoSection.getAccessTicket.priceInfo')}
           </p>
           <p
-            className={`text-white my-5 font-serif text-[20px] md:text-[40px] ${
+            className={`text-white my-5 font-serif text-[30px] md:text-[40px] ${
               activeLanguage === 'en' ? 'text-left' : 'text-right'
             }`}
           >

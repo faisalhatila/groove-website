@@ -63,7 +63,7 @@ const BookTicketsCarousel = () => {
         <p
           className={`${
             activeLanguage === 'en' ? 'text-left' : 'text-right'
-          } text-[20px] md:text-[35px] xl:text-[40px] md:max-w-[60%] xl:max-w-[40$]`}
+          } text-[30px] font-serif md:text-[35px] xl:text-[40px] md:max-w-[60%] xl:max-w-[40%]`}
         >
           {t('home.bookGeneralAccessTickers.title')}
         </p>
